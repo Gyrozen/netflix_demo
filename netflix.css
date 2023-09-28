@@ -1,0 +1,151 @@
+* {
+    margin:0px;
+    border: 0px;
+}
+
+.seperate{
+    height: 10px;
+    background-color: rgb(69, 69, 69);
+}
+
+
+
+body {
+    background-color: black;
+}
+
+.top {
+    height: 800px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("bg.jpg") no-repeat center center ;
+}
+
+.logo img{
+    height:55px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.menu_2 {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+select {
+    text-align: center;
+    color: white;
+    height: 50px;
+    width:140px;
+    /* background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.519);
+    font-size: 20px;
+
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+
+}
+.menu_el2 button {
+    background-color: red;
+    color:white;
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Text */
+
+.text {
+    height: 600px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 25px;
+}
+
+.text p {
+    margin: 30px;
+}
+.text h3 {
+    padding-bottom: 30px;
+}
+.text button {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.text input {
+    height: 50px;
+    width: 400px;
+    color: white;
+    border-radius: 2px;
+    border-color: white;
+    background-color:rgba(0, 0, 0, 0.649);
+    font-size: 20px;
+
+}
+
+/* Content */
+
+.content {
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 40px;
+
+}
+
+.content p{
+    margin-top: 20px;
+    font-size: 28px;
+}
+.one {
+    height: 575px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* footer */
+
+li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+footer {
+    display: block;
+}
+
+.cn {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(165, 165, 165)
+
+}
+.footer {
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(165, 165, 165)
+}
